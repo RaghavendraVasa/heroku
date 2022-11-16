@@ -1,0 +1,11 @@
+{
+    "firstname" : "Raghav",
+    "lastname" : "Vasa",
+    "totalprice" : 100,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2022-12-31",
+        "checkout" : "2023-01-01"
+    },
+    "additionalneeds" : "Lunch"
+}
