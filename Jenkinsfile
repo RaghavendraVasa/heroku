@@ -11,6 +11,7 @@ pipeline {
         }
         stage('Execute API Tests') {
             steps {
+                bat 'lib.bat'
                 bat 'pytest --html=./reports/report.html test_cases'
             }
         }
